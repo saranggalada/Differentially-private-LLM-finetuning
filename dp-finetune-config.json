@@ -13,7 +13,7 @@
   "EPSILON": 7.5,
   "DELTA": 1e-5,
   "MAX_GRAD_NORM": 1.0,
-  "HF_READ_TOKEN": "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",
-  "HF_WRITE_TOKEN": "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",
+  "HF_READ_TOKEN": "",
+  "HF_WRITE_TOKEN": "",
   "SAVE_MODEL_REPO_NAME": "Sarang-Galada/dp-llm-finetune"
 }
