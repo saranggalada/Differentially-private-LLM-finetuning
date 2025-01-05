@@ -1,0 +1,8 @@
+transformers
+datasets
+peft
+opacus
+bitsandbytes
+json
+argparse
+os

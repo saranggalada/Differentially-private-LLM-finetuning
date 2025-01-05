@@ -1,0 +1,19 @@
+{
+  "MODEL_NAME": "meta-llama/Llama-3.2-1b",
+  "DATASET_NAME": "alberto98fx/hinduism-stackexchange",
+  "TEXT_COLUMN": "aa_body",
+  "MAX_TOKENS": 512,
+  "GRADIENT_ACCUMULATION_STEPS": 4,
+  "SANITY_CHECK_SIZE": 1000,
+  "MAX_PHYSICAL_BATCH_SIZE": 8,
+  "USE_SANITY_CHECK": true,
+  "NUM_EPOCHS": 3,
+  "BATCH_SIZE": 8,
+  "LEARNING_RATE": 5e-5,
+  "EPSILON": 7.5,
+  "DELTA": 1e-5,
+  "MAX_GRAD_NORM": 1.0,
+  "HF_READ_TOKEN": "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",
+  "HF_WRITE_TOKEN": "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",
+  "SAVE_MODEL_REPO_NAME": "Sarang-Galada/dp-llm-finetune"
+}
