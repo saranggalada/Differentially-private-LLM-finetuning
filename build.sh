@@ -3,7 +3,7 @@
 # Configuration
 PYTHON_VERSION="3.10.12"  # Or a widely supported version
 VENV_NAME="dp_finetune_env"
-REPO_URL="https://github.com/saranggalada/Differentially-private-LLM-finetuning.git" # Replace with your repo URL
+# REPO_URL="https://github.com/saranggalada/Differentially-private-LLM-finetuning.git" # Replace with your repo URL
 SCRIPT_NAME="dp-llm-finetune.py"
 CONFIG_FILE="dp-finetune-config.json" # Name of your config file
 
@@ -61,16 +61,16 @@ else
     PYTHON_EXECUTABLE="python${PYTHON_VERSION}" # Use installed python
 fi
 
-# Clone/Update repository
-if [ ! -d "dp-llm-finetune-project" ]; then
-    git clone "$REPO_URL" dp-llm-finetune-project
-else
-    cd dp-llm-finetune-project
-    git pull origin main # Or your branch
-    cd ..
-fi
+# # Clone/Update repository
+# if [ ! -d "dp-llm-finetune-project" ]; then
+#     git clone "$REPO_URL" dp-llm-finetune-project
+# else
+#     cd dp-llm-finetune-project
+#     git pull origin main # Or your branch
+#     cd ..
+# fi
 
-cd dp-llm-finetune-project
+# cd dp-llm-finetune-project
 
 # Create/Activate virtual environment (using the correct python executable)
 if [ ! -d "$VENV_NAME" ]; then
